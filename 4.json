@@ -3,7 +3,7 @@
     "name": "MVCS Dashboard",
     "version": 1
   },
-  "preset": "profile",
+  "preset": "dashboard",
   "groups": [
     {
       "id": "82ea599f-cf4c-4f5c-b03c-a19ff32f1298",
@@ -95,7 +95,7 @@
           }
         },
         {
-          "id": "45a75aff-90d9-45d6-8f47-b3c66dafe219",
+          "id": "9bd25be3-0445-4487-a288-cc752c5e5ea5",
           "type": "chart:pie",
           "title": "Pie Chart",
           "refreshSec": 0,
