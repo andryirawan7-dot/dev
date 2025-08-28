@@ -1,0 +1,429 @@
+{
+  "meta": {
+    "name": "MVCS Dashboard",
+    "version": 1
+  },
+  "groups": [
+    {
+      "id": "bc0b4451-d1b0-4b26-9a56-ad2b5d60f721",
+      "items": [
+        {
+          "id": "cb59f8bd-b372-411a-9c7e-7c9525d54c96",
+          "type": "chart:bar",
+          "title": "Penjualan / Kuartal",
+          "source": {
+            "data": [
+              {
+                "label": "Q1",
+                "value": 120
+              },
+              {
+                "label": "Q2",
+                "value": 180
+              },
+              {
+                "label": "Q3",
+                "value": 90
+              },
+              {
+                "label": "Q4",
+                "value": 210
+              }
+            ],
+            "mode": "static"
+          },
+          "mapping": {
+            "labelKey": "label",
+            "valueKey": "value"
+          },
+          "options": {
+            "height": 240,
+            "legend": true,
+            "padding": 24
+          },
+          "refreshSec": 0
+        },
+        {
+          "id": "f35e81a9-e977-4e02-a1fc-6b455512f190",
+          "type": "chart:line",
+          "title": "Kunjungan / Hari",
+          "source": {
+            "data": [
+              {
+                "label": "Sen",
+                "value": 50
+              },
+              {
+                "label": "Sel",
+                "value": 70
+              },
+              {
+                "label": "Rab",
+                "value": 65
+              },
+              {
+                "label": "Kam",
+                "value": 90
+              },
+              {
+                "label": "Jum",
+                "value": 120
+              },
+              {
+                "label": "Sab",
+                "value": 80
+              },
+              {
+                "label": "Min",
+                "value": 60
+              }
+            ],
+            "mode": "static"
+          },
+          "mapping": {
+            "labelKey": "label",
+            "valueKey": "value"
+          },
+          "options": {
+            "height": 240,
+            "legend": true,
+            "padding": 24
+          },
+          "refreshSec": 0
+        },
+        {
+          "id": "9a807a51-ebed-4e87-bbd4-f52ceb526597",
+          "type": "chart:pie",
+          "title": "Produk Terjual",
+          "source": {
+            "data": [
+              {
+                "label": "A",
+                "value": 30
+              },
+              {
+                "label": "B",
+                "value": 45
+              },
+              {
+                "label": "C",
+                "value": 25
+              }
+            ],
+            "mode": "static"
+          },
+          "mapping": {
+            "labelKey": "label",
+            "valueKey": "value"
+          },
+          "options": {
+            "height": 240,
+            "legend": true,
+            "padding": 24
+          },
+          "refreshSec": 0
+        }
+      ],
+      "title": "Grafik",
+      "columns": 2
+    },
+    {
+      "id": "975a65aa-4718-4aa4-bcb8-837d901627ba",
+      "items": [
+        {
+          "id": "c5dae6be-b49c-4c87-a92e-b6a88e57d133",
+          "type": "table",
+          "title": "Produk Teratas",
+          "source": {
+            "data": [
+              {
+                "id": 1,
+                "nama": "Keyboard",
+                "harga": 350000,
+                "Keterangan": "Baik"
+              },
+              {
+                "id": 2,
+                "nama": "Mouse",
+                "harga": 150000,
+                "Keterangan": "Baik"
+              },
+              {
+                "id": 3,
+                "nama": "Headset",
+                "harga": 550000,
+                "Keterangan": "Baik"
+              },
+              {
+                "id": 4,
+                "nama": "Kabel",
+                "harga": 50000,
+                "Keterangan": "Baik"
+              },
+              {
+                "id": 5,
+                "nama": "Monitor",
+                "harga": 2250000,
+                "Keterangan": "Baik"
+              }
+            ],
+            "mode": "static"
+          },
+          "mapping": {
+            "labelKey": "label",
+            "valueKey": "value"
+          },
+          "options": {
+            "height": 240,
+            "legend": true,
+            "padding": 24
+          },
+          "refreshSec": 0
+        },
+        {
+          "id": "e818b67c-0931-4687-8f70-77537b7e0b84",
+          "type": "card",
+          "title": "Profil Kami",
+          "source": {
+            "data": [],
+            "mode": "static"
+          },
+          "content": "Solusi dashboard single-file dengan arsitektur MVCS. Dengan cepat dan mudah",
+          "mapping": {
+            "labelKey": "label",
+            "valueKey": "value"
+          },
+          "options": {
+            "height": 240,
+            "legend": true,
+            "padding": 24
+          },
+          "refreshSec": 0
+        },
+        {
+          "id": "produk-table",
+          "type": "table",
+          "title": "Daftar Produk",
+          "source": {
+            "data": [
+              {
+                "id": 1,
+                "nama": "Keyboard",
+                "stok": 20,
+                "harga": 350000
+              },
+              {
+                "id": 2,
+                "nama": "Mouse",
+                "stok": 35,
+                "harga": 150000
+              },
+              {
+                "id": 3,
+                "nama": "Headset",
+                "stok": 15,
+                "harga": 550000
+              },
+              {
+                "id": 4,
+                "nama": "Monitor",
+                "stok": 8,
+                "harga": 2250000
+              },
+              {
+                "id": 5,
+                "nama": "Kabel",
+                "stok": 18,
+                "harga": 50000
+              },
+              {
+                "id": 6,
+                "nama": "Printer",
+                "stok": 18,
+                "harga": 5550000
+              },
+              {
+                "id": 7,
+                "nama": "CDMI",
+                "stok": 11,
+                "harga": 50000
+              },
+              {
+                "id": 8,
+                "nama": "Tinta",
+                "stok": 10,
+                "harga": 750000
+              },
+              {
+                "id": 9,
+                "nama": "PC",
+                "stok": 5,
+                "harga": 1750000
+              },
+              {
+                "id": 10,
+                "nama": "SD Card",
+                "stok": 5,
+                "harga": 75000
+              }
+            ],
+            "mode": "static"
+          },
+          "mapping": {
+            "labelKey": "nama",
+            "valueKey": "harga"
+          },
+          "options": {
+            "height": 260,
+            "legend": true,
+            "padding": 24
+          },
+          "refreshSec": 0
+        },
+        {
+          "id": "kpi-penjualan",
+          "type": "card",
+          "title": "Total Penjualan Bulan Ini",
+          "source": {
+            "url": "https://dummyjson.com/carts/1",
+            "data": [
+              103774.85
+            ],
+            "mode": "url",
+            "dataPath": "total"
+          },
+          "content": "Rp 12.500.000",
+          "options": {
+            "height": 180,
+            "padding": 24
+          },
+          "refreshSec": 60
+        }
+      ],
+      "title": "Konten",
+      "columns": 3
+    },
+    {
+      "id": "88d6155f-7abb-4b0d-aed7-5f03ca3f93a7",
+      "items": [
+        {
+          "id": "8956681c-abc3-4634-b5b2-233ed09bf91d",
+          "type": "paragraph",
+          "title": "Deskripsi",
+          "source": {
+            "data": [],
+            "mode": "static"
+          },
+          "content": "monitor adalah salah satu perangkat keras",
+          "mapping": {
+            "labelKey": "label",
+            "valueKey": "value"
+          },
+          "options": {
+            "height": 240,
+            "legend": true,
+            "padding": 24
+          },
+          "refreshSec": 0
+        },
+        {
+          "id": "92a70d07-0c11-4298-ba6e-7798cb5258f6",
+          "type": "image",
+          "media": {
+            "alt": "Contoh gambar",
+            "url": "https://picsum.photos/640/360"
+          },
+          "title": "Gambar Produk",
+          "source": {
+            "data": [],
+            "mode": "static"
+          },
+          "mapping": {
+            "labelKey": "label",
+            "valueKey": "value"
+          },
+          "options": {
+            "height": 240,
+            "legend": true,
+            "padding": 24
+          },
+          "refreshSec": 0
+        },
+        {
+          "id": "e6429dd6-5245-4d74-9513-5cf888dc2a9c",
+          "type": "video",
+          "media": {
+            "url": "https://www.w3schools.com/html/mov_bbb.mp4"
+          },
+          "title": "Video Produk",
+          "source": {
+            "data": [],
+            "mode": "static"
+          },
+          "mapping": {
+            "labelKey": "label",
+            "valueKey": "value"
+          },
+          "options": {
+            "height": 240,
+            "legend": true,
+            "padding": 24
+          },
+          "refreshSec": 0
+        }
+      ],
+      "title": "Deskripsi dan Gambar",
+      "columns": 2
+    },
+    {
+      "id": "a535c46e-47a6-4aeb-a1a7-15aa0b213f8d",
+      "items": [
+        {
+          "id": "ca8529a3-701f-46fc-ab59-bf74c76b4b49",
+          "type": "table",
+          "title": "Harga Service",
+          "source": {
+            "data": [
+              {
+                "id": 1,
+                "nama": "Hadware",
+                "harga": "1350000",
+                "Catatan": "-",
+                "Keterangan": "Ringan",
+                "Jenis Kerusakan": "..."
+              },
+              {
+                "id": 2,
+                "nama": "Instal Software",
+                "harga": 1150000,
+                "Catatan": "-",
+                "Jenis Kerusakan": "..."
+              },
+              {
+                "id": 3,
+                "nama": "Instal Aplikasi",
+                "harga": 550000,
+                "Catatan": "-",
+                "Jenis Kerusakan": "..."
+              }
+            ],
+            "mode": "static"
+          },
+          "mapping": {
+            "labelKey": "label",
+            "valueKey": "value"
+          },
+          "options": {
+            "height": 240,
+            "legend": true,
+            "padding": 24
+          },
+          "refreshSec": 0
+        }
+      ],
+      "title": "Service",
+      "columns": 2
+    }
+  ],
+  "preset": "profile"
+}
